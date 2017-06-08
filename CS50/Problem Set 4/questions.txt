@@ -1,0 +1,17 @@
+1.  This header defines a set of integral type aliases with specific width requirements to create values of these types.
+2.  An unsigned type represents a large number without nay problem. An uint_8 has a width upto 4 billion digits. 
+3.  1 Byte = 1 Byte = 8 bits
+    1 DWORD = 4 Bytes
+    1 LONG = 4 Bytes
+    1 WORD = 2 Bytes
+4.  Hex:    0x424d
+    ASCII:  BM 
+    This value is stored in "bfType".
+5.  bfSize is the total number of bytes in the file. biSize is the number of bytes in the info header.
+6.  If biHeight is negative, the bitmap is a top-down DIB with the origin at the upper left corner.
+7.  biBitCount
+8.  If it can't find the file
+9.  Because it specifies how many elements you want to read, and we're always reading a struct so we only need 1 struct.
+10. The padding would be 3
+11. It moves to a specific location in a file.
+12. An integer constant which, when used as the 'whence' argument to the fseek or fseeko function, specifies that the offset provided is relative to the current file position.
