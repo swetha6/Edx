@@ -1,0 +1,10 @@
+0.  According to Google: "an artificial long word said to mean a lung disease caused by inhaling very fine ash and sand dust."
+1.  Measure resource usage.
+2.  16
+3.  Because otherwise two large structs would be copied into the parameters of the function, which would be needlessly inefficient.
+4.  We use a For-Loop and fgetc to read character by character
+    within the loop, we check if teh character is alphabetic. If it is, then it is appended to the current word . 
+    If the character is neither alphanumeric nor apostrophe, and the index value is >0 then we assume that we have reached the end of the word. 
+5.  Using fgetc allows us to catch illegal characters or greater than permitted length words immediately, rather than having to read
+    the whole word in and then check it.
+6.  To ensure that these functions cannot modify the passed in values.
